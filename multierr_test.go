@@ -6,7 +6,7 @@ import (
 )
 
 func TestNoError(t *testing.T) {
-	var errors MultiError
+	var errors E
 	err := errors.Error()
 	if err != "" {
 		t.Error("Empty errors not returning nil")
@@ -15,7 +15,7 @@ func TestNoError(t *testing.T) {
 }
 
 func TestErrors(t *testing.T) {
-	var errors MultiError
+	var errors E
 	errors.Append(fmt.Errorf("The First Error"))
 	got := errors.Error()
 	if got == "" {

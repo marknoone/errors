@@ -1,1 +1,1 @@
-module github.com/marknoone/errors
+module github.com/marknoone/multierr
