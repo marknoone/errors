@@ -1,4 +1,4 @@
-package multierr
+package errors
 
 import (
 	"fmt"

@@ -1,1 +1,1 @@
-module marknoone/multierr
+module marknoone/errors
