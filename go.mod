@@ -1,1 +1,1 @@
-module marknoone/errors
+module github.com/marknoone/errors
